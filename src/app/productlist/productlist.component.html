@@ -1,0 +1,32 @@
+<h3>View Products</h3>
+<table class="table table-striped">
+<thead>
+<tr>
+    <th>Product Id</th>
+    <th>Product Name</th>
+    <th>Product Cost</th>
+    <th>Product Vender</th>
+    <th>Product Description</th>
+    <th>Action</th>
+</tr>
+
+</thead>
+<tbody>
+<tr *ngFor="let p of products">
+    <td>{{p.productId}}</td>
+    <td>{{p.productName}}</td>
+    <td>{{p.productCost}}</td>
+    <td>{{p.productVender}}</td>
+    <td>{{p.productDescription}}</td>
+    
+    <td>
+        <button class="btn btn-danger" (click)="deleteProduct(p.productId)">Delete</button>
+      &nbsp;
+        <!-- <button class="btn btn-info" (click)="editProduct(p.contactId)">Update</button> -->
+      </td>
+
+</tr>
+
+</tbody>
+
+   
