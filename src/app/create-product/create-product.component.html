@@ -1,5 +1,6 @@
 <div class="col-md-6 offset-md-3">
   <h2>Create Product</h2>
+
   <form (ngSubmit)="onSubmit()">
   
       <div class="form-group">
@@ -44,11 +45,12 @@
   class="form-control" 
   name="productDescription" 
   id="productDescription"
-  [(ngModel)]="product.productVender"
+  [(ngModel)]="product.productDescription"
   >
 </div>
 
       <br>
+      
       <div>
           <button class="btn btn-primary" type="submit">
               Save

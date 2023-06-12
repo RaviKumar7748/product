@@ -9,9 +9,11 @@ import { CreateProductComponent } from './create-product/create-product.componen
 import { ProductlistComponent } from './productlist/productlist.component';
 import { ProducteditComponent } from './productedit/productedit.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
+    ProductlistComponent,
     CreateProductComponent,
     ProductlistComponent,
     ProducteditComponent
