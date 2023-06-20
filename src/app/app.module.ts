@@ -15,8 +15,8 @@ import { ProducteditComponent } from './productedit/productedit.component';
     AppComponent,
     ProductlistComponent,
     CreateProductComponent,
-    ProductlistComponent,
-    ProducteditComponent
+    ProducteditComponent,
+    ProductlistComponent
   ],
   imports: [
     BrowserModule,
